@@ -1,0 +1,3 @@
+C:/Users/eloig/Desktop/Snoopy_Revenge/cmake-build-debug/CMakeFiles/Snoopy_Revenge.dir
+C:/Users/eloig/Desktop/Snoopy_Revenge/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/eloig/Desktop/Snoopy_Revenge/cmake-build-debug/CMakeFiles/rebuild_cache.dir
