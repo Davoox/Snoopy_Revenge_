@@ -1,0 +1,38 @@
+/* 
+// fait par yassine mais je ne m'en suis pas servi 
+
+#include <stdio.h>
+#include <unistd.h>
+int calculscore(int tempsrest){
+    return tempsrest*100;
+}
+void jouer(int temps_rest,int * score_total){
+
+    while (temps_rest>0){
+        printf("Temps restant : %d secondes.\n", temps_rest);
+        sleep(1);
+        temps_rest--;
+    }
+    int score_niveau = calculscore(temps_rest);
+    * score_total +=score_niveau;
+    printf("END of the level. SCORE: %S, Total Score: %d\n", score_niveau, score_total);
+}
+int main() {
+    int vies = 3;
+    int score_total = 0;
+
+    // Niveau 1
+    jouer(30, &score_total);
+
+    // Niveau 2
+    jouer(55, &score_total);
+
+    // Niveau 3
+    jouer(59, &score_total);
+
+    // Affichage du score final
+    printf("Game Over. Votre score final : %d\n", score_total);
+
+    return 0;
+}
+*/
