@@ -3,15 +3,15 @@
 //
 
 // Bibli
-#include <stdio.h> // Fonctions standard
-#include <windows.h> // Fonctions spécifiques à Windows
-#include <unistd.h> // Fonctions UNIX
-#include <conio.h> // Fonction pour interagire avec la console
-#include <time.h> // Fonctions gestion du temps
-#define NB_COLONNES 20 // constante LIGNES avec 20 valeurs
-#define NB_LIGNES 10 // constante COLONNES avec 10 valeurs
-#define LONGUEUR 200 // constante LONGUEUR avec 100 valeurs
-#define LARGEUR 30 //  constante LARGEUR avec 30 valeurs
+#include <stdio.h> 
+#include <windows.h> 
+#include <unistd.h> 
+#include <conio.h> 
+#include <time.h> 
+#define NB_COLONNES 20 
+#define NB_LIGNES 10
+#define LONGUEUR 200 
+#define LARGEUR 30 
 
 //Tableau
 extern int template_niv_1[NB_LIGNES][NB_COLONNES];
