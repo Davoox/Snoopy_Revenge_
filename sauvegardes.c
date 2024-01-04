@@ -21,7 +21,7 @@ void sauvegarder(int niv[10][20], int t, int x, int y, int i, int j, int oiseaux
 void charger(int niv[10][20], int t, int x, int y, int i, int j, int oiseaux, int level_number) {
     int c2,l2;
 
-    FILE *fichier=fopen("sauvergardes.txt","r");
+    FILE *fichier=fopen("Masauvegarde.txt","r");
     fscanf(fichier,"%d",&t);
     fscanf(fichier,"%d",&x);
     fscanf(fichier,"%d",&y);
